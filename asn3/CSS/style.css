@@ -1,0 +1,82 @@
+/* global */
+*{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0 auto;
+}
+body {
+    background-color:lightsteelblue;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    display: inline-block;
+}
+img {
+    width: 200px;
+    float: inline-end;
+
+}
+a:hover {
+    text-decoration: none;
+}
+h3{
+    font-size: 25px;
+    margin: auto;
+}
+p{
+    margin: 0;
+}
+.content-wrap{
+    width: 800px auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+/* about */
+.title{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size:  60px;
+    text-shadow: 5px 5px 5px rgb(111, 110, 105);
+    background-color: cadetblue;
+    padding: 16pxS;
+}
+header {
+    font-size: larger;
+    text-align: center;
+    background-color: cadetblue;
+}
+/* projects */
+.projects{
+    font-size: normal;
+    background-color:lightsteelblue;
+}
+.subtopic{
+    font-size: large;
+}
+/* work */
+.topic{
+    font-size: 50px;
+   
+}
+.work{
+    font-size: larger;
+}
+/* education */
+.school {
+    font-size: larger;
+}
+/* socials */
+ul {
+    list-style: none;
+}
+.footer .btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(118, 146, 101);
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 2em;
+}
+.footer .btn:hover {
+    background-color: palevioletred;
+    margin: 5px;
+}
